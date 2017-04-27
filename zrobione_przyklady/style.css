@@ -2,6 +2,13 @@
 .brb{
 border-right: 1px solid black;
 }
+.link{
+	color: blue;
+	text-decoration: underline;
+}
+.link:hover{
+	cursor: pointer;
+}
 .tac{
 	text-align: center;
 }
