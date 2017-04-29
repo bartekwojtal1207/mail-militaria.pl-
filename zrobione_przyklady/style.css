@@ -1,4 +1,13 @@
 /* add new class with border style*/
+.map{
+	display: block;
+	z-index: 200;
+	top: -160px;
+	width: 127px;
+	position: relative;
+	left: 32px;
+	height: 112px;
+}
 .brb{
 border-right: 1px solid black;
 }
