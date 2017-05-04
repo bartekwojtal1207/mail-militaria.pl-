@@ -3,13 +3,16 @@
 	display: block;
 	z-index: 200;
 	top: -160px;
-	width: 127px;
+	width: 115px;
 	position: relative;
-	left: 32px;
-	height: 112px;
+	left: 47px;
+	height: 117px;
 }
 .brb{
 border-right: 1px solid black;
+}
+.bbb{
+border-bottom: 1px solid black;
 }
 .link{
 	color: blue;
