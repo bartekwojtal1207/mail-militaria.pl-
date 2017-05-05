@@ -1,4 +1,8 @@
 /* add new class with border style*/
+.logo{
+	background-color: black;
+	border-radius: 50%;
+}
 .map{
 	display: block;
 	z-index: 200;
@@ -7,6 +11,13 @@
 	position: relative;
 	left: 47px;
 	height: 117px;
+}
+.button_face_text{
+	position: relative;
+	top: -25px;
+	color: white;
+	font-size: 12px;
+	left: -15px;
 }
 .brb{
 border-right: 1px solid black;
@@ -64,11 +75,20 @@ border-bottom: 1px solid black;
 .f-size18{
 	font-size: 18px;
 }
+.f-size17{
+	font-size: 17px;
+}
 .f-size20{
 	font-size: 20px;
 }
 .f-size26{
 	font-size: 26px;
+}
+.f-size24{
+	font-size: 24px;
+}
+.f-size34{
+	font-size: 34px;
 }
 .c-blk{
 	color: #000000 !important;

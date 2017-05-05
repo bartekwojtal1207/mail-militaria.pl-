@@ -34,31 +34,31 @@ table td, table th { border-collapse:collapse; font-size:1px; line-height:1px; }
 						<tr>
 							<td class="iph"><!-- iph is media query option -->
 								<table cellspacing="0" cellpadding="0" border="0" width="100%"  class="fw">
-									<e-optional name="sec-header1">
-									<e-optional name="sec-header2">
 									<tr>
+										<e-optional name="sec-header1">
 										<td align="left" class="lh"><font class="f-size12" e-editable="sec-header1">Preheader simple text</font></td>
-                		<td align="right" class="lh"><font class="f-size12 link" e-editable="sec-header2">Kliknij tutaj  </font><font class="f-size12" e-editable="sec-header2"> jeśli nie widzisz wiadomości</font></td>
+										</e-optional>
+										<e-optional name="sec-header2">
+                		<td align="right" class="lh"><font class="f-size12 link">Kliknij tutaj </font><font class="f-size12" e-editable="sec-header2"> jeśli nie widzisz wiadomości</font></td>
+										</e-optional>
 									</tr>
 									<tr>
 										<td height="15" class="s2"><img src="{variables.trans}" width="1" height="15" style="display:block;"></td>
 									</tr>
-									</e-optional>
-									</e-optional>
 								</table>
 							</td>
 						</tr><!-- end of preheader -->
 						<tr>
 							<td>
 								<table cellspacing="0" cellpadding="0" border="0" width="100%" bgcolor="#ffffff" class="fw">
-									<e-optional name="sec1-img1">
 									<tr class="is_image_mobile_hideable">
-										<td align="center"><img e-editable="sec1-img1" src="i/logoMilitaria.jpg" border="0" class="image" style="display:block;" title="militaria.pl" alt="logo Militaria"></td>
+										<e-optional name="logo">
+										<td align="center"><img e-editable="logo" src="i/logoMilitaria.jpg" border="0" class="image" style="display:block;" title="militaria.pl" alt="logo Militaria"></td>
+										</e-optional>
 									</tr>
 									<tr>
 										<td><img src="{variables.trans}"  width="1" height="20" style="display:block;"></td>
 									</tr>
-									</e-optional>
 								</table>
 							</td>
 						</tr><!-- end of logo -->
@@ -81,76 +81,75 @@ table td, table th { border-collapse:collapse; font-size:1px; line-height:1px; }
 						<tr>
 							<td>
 								<table cellspacing="0" cellpadding="0" border="0" width="100%" bgcolor="#ffffff" class="fw">
-									<e-optional name="sec1-img2">
 									<tr class="is_image_mobile_hideable">
-										<td ><img e-editable="sec1-img2" src="i/baner.jpg" border="0" width="661" class="image" style="display:block;"></td>
+										<e-optional name="baner">
+										<td ><img e-editable="baner" src="i/baner.jpg" border="0" width="661" class="image" style="display:block;"></td>
+									</e-optional>
 									</tr>
 									<tr class="is_image_mobile_hideable">
 										<td height="10" class="s1"><img src="{variables.trans}" width="1" height="20" style="display:block;"></td>
 									</tr>
-									</e-optional>
 								</table>
 							</td>
 						</tr> <!-- 4. 1-col baner -->
 						<tr>
 							<td>
 								<table cellspacing="0" cellpadding="0" border="0" width="100%" bgcolor="#ffffff" class="fw">
-									<e-optional name="sec1-text1">
-									<e-optional name="sec1-text2">
 									<tr>
-										<td align="center" class="lh"><font e-editable="sec1-text1" class="f-size26">Sample header text</font>
-										</td>
+										<e-optional name="hedaer_text">
+										<td align="center" class="lh"><font e-editable="header_text" class="f-size26">Sample header text</font></td>
+									</e-optional>
 									</tr>
 									<tr>
-										<td align="left" class="lh"><font e-editable="sec1-text2">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</font></td>
+										<e-optional name="header_description">
+										<td align="left" class="lh"><font e-editable="header_description">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</font></td>
+										</e-optional>
 									</tr>
 									<tr>
 										<td height="15" class="s3"><img src="{variables.trans}" width="1" height="15" style="display:block;"></td>
 									</tr>
-									</e-optional>
-									</e-optional>
 								</table>
 							</td>
 						</tr> <!-- 5. end of 1-col text -->
 						<tr>
 							<td>
 								<table cellspacing="0" cellpadding="0" border="0" width="100%" bgcolor="#ffffff" class="fw">
-									<e-optional name="sec1-img2">
-									<e-optional name="sec1-img3">
-									<e-optional name="sec1-img4">
-									<e-optional name="sec1-img5">
-									<e-optional name="sec1-text3">
-									<e-optional name="sec1-text4">
-									<e-optional name="sec1-text5">
-									<e-optional name="sec1-text6">
-									<e-optional name="sec1-text7">
-									<e-optional name="sec1-text8">
-									<e-optional name="sec1-text9">
-									<e-optional name="sec1-text10">
 									<tr>
 										<td align="left">
 											<table cellspacing="0" cellpadding="0" border="0" width="100%" bgcolor="#ffffff">
 												<tr>
-													<td><font e-editable="sec1-text3" class="f-size18">Rękawice Mechanix Wear</font></td>
+													<e-optional name="product_title-1">
+													<td><font e-editable="product_title-1" class="f-size18">Rękawice Mechanix Wear</font></td>
+													</e-optional>
 												</tr>
 												<tr>
-													<td><font e-editable="sec1-text4" class="f-size20 fw-bld">Orginal Grip</font></td>
+													<e-optional name="product_description-1">
+													<td><font e-editable="product_description-1" class="f-size20 fw-bld">Orginal Grip</font></td>
+													</e-optional>
 												</tr>
 												<tr>
-													<td align="center"><img e-editable="sec1-img2" src="i/product.jpg" border="0" style="display:block;" class="image"></td>
+													<e-optional name="product_image-1">
+													<td align="center"><img e-editable="product_image-1" src="i/product.jpg" border="0" style="display:block;" class="image"></td>
+													</e-optional>
 												</tr>
 											</table>
 										</td>
 										<td align="left">
 											<table cellspacing="0" cellpadding="0" border="0" width="100%" bgcolor="#ffffff">
 												<tr>
-													<td><font e-editable="sec1-text5" class="f-size18">Rękawice Mechanix Wear</font></td>
+													<e-optional name="product_title-2">
+													<td><font e-editable="product_title-2" class="f-size18">Rękawice Mechanix Wear</font></td>
+													</e-optional>
 												</tr>
 												<tr>
-													<td><font e-editable="sec1-text6" class="f-size20 fw-bld">Orginal Grip</font></td>
+													<e-optional name="product_description-2">
+													<td><font e-editable="product_description-2" class="f-size20 fw-bld">Orginal Grip</font></td>
+													</e-optional>
 												</tr>
 												<tr>
-													<td align="center"><img e-editable="sec1-img2" src="i/product.jpg" border="0" style="display:block;" class="image"></td>
+													<e-optional name="product_image-2">
+													<td align="center"><img e-editable="product_image-2" src="i/product.jpg" border="0" style="display:block;" class="image"></td>
+													</e-optional>
 												</tr>
 											</table>
 										</td>
@@ -159,42 +158,42 @@ table td, table th { border-collapse:collapse; font-size:1px; line-height:1px; }
 										<td align="left">
 											<table cellspacing="0" cellpadding="0" border="0" width="100%" bgcolor="#ffffff">
 												<tr>
-													<td><font e-editable="sec1-text7"class="f-size18">Rękawice Mechanix Wear</font></td>
+													<e-optional name="product_title-3">
+													<td><font e-editable="product_title-3"class="f-size18">Rękawice Mechanix Wear</font></td>
+													</e-optional>
 												</tr>
 												<tr>
-													<td><font e-editable="sec1-text8" class="f-size20 fw-bld">Orginal Grip</font></td>
+													<e-optional name="product_description-3">
+													<td><font e-editable="product_description-3" class="f-size20 fw-bld">Orginal Grip</font></td>
+													</e-optional>
 												</tr>
 												<tr>
-													<td align="center"><img e-editable="sec1-img2" src="i/product.jpg" border="0" style="display:block;" class="image"></td>
+													<e-optional name="product_image-3">
+													<td align="center"><img e-editable="product_image-3" src="i/product.jpg" border="0" style="display:block;" class="image"></td>
+													</e-optional>
 												</tr>
 											</table>
 										</td>
 										<td align="left">
 											<table cellspacing="0" cellpadding="0" border="0" width="100%" bgcolor="#ffffff">
 												<tr>
-													<td><font e-editable="sec1-text9" class="f-size18">Rękawice Mechanix Wear</font></td>
+													<e-optional name="product_title-4">
+													<td><font e-editable="product_title-4" class="f-size18">Rękawice Mechanix Wear</font></td>
+													</e-optional>
 												</tr>
 												<tr>
-													<td><font e-editable="sec1-text10" class="f-size20 fw-bld">Orginal Grip</font></td>
+													<e-optional name="product_description-4">
+													<td><font e-editable="product_description-4" class="f-size20 fw-bld">Orginal Grip</font></td>
+													</e-optional>
 												</tr>
 												<tr>
-													<td align="center"><img e-editable="sec1-img2" src="i/product.jpg" border="0" style="display:block;" class="image"></td>
+													<e-optional name="product_image-4">
+													<td align="center"><img e-editable="product_image-4" src="i/product.jpg" border="0" style="display:block;" class="image"></td>
+													</e-optional>
 												</tr>
 											</table>
 										</td>
 									</tr>
-									</e-optional>
-									</e-optional>
-									</e-optional>
-									</e-optional>
-									</e-optional>
-									</e-optional>
-									</e-optional>
-									</e-optional>
-									</e-optional>
-									</e-optional>
-									</e-optional>
-									</e-optional>
 								</table>
 							</td>
 						</tr><!-- 6a 2 col baner -->
@@ -204,56 +203,65 @@ table td, table th { border-collapse:collapse; font-size:1px; line-height:1px; }
 									<tr class="is_image_mobile_hideable">
 										<td height="20" class="s1"><img src="{variables.trans}" width="1" height="10" style="display:block;"></td>
 									</tr>
-									<e-optional name="sec1-img6">
 									<tr class="is_image_mobile_hideable">
-										<td><img e-editable="sec1-img6" src="i/baner2.jpg" border="0" class="image" style="display:block;"></td>
+										<e-optional name="baner2_foto">
+										<td><img e-editable="baner2_foto" src="i/baner2.jpg" border="0" class="image" style="display:block;"></td>
+									 	</e-optional>
 									</tr>
 									<tr class="is_image_mobile_hideable">
 										<td height="10" class="s1"><img src="{variables.trans}" width="1" height="10" style="display:block;"></td>
 									</tr>
-									</e-optional>
 								</table>
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<e-optional name="sec1-text11">
-								<e-optional name="sec1-text12">
 								<tr>
-									<td align="center" class="lh"><font e-editable="sec1-text11" class="f-size26">Sample header text</font></td>
+									<e-optional name="header-title-2">
+									<td align="center" class="lh"><font e-editable="header-title-2" class="f-size26">Sample header text</font></td>
+									</e-optional>
 								</tr> <!-- baner and text -->
 								<tr>
-									<td align="left" class="lh"><font e-editable="sec1-text12">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</font></td>
+									<e-optional name="header-description-2">
+									<td align="left" class="lh"><font e-editable="header-description-2">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</font></td>
+									</e-optional>
 								</tr>
 								<tr>
 									<td height="15" class="s3"><img src="{variables.trans}" width="1" height="20" style="display:block;"></td>
 								</tr>
-								</e-optional>
-								</e-optional>
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<e-optional name="sec1-img1">
 									<table cellpadding="0" cellspacing="0" border="0" class="fw sm1">
 										<tr>
 											<td><img src="{variables.trans}" width="20" height="15" style="display:block;"></td>
 											<td>
 												<table cellpadding="0" cellspacing="0" border="0" class="fw sm1">
 													<tr>
-														<td align="center"><img e-editable="sec1-img1"  src="i/product2.jpg" border="1px solid black" style="display:block;" class="image"></td>
+														<e-optional name="product2_image">
+														<td align="center"><img e-editable="product2_image"  src="i/product2.jpg" border="1px solid black" style="display:block;" class="image"></td>
+														</e-optional>
 													</tr>
 													<tr>
-														<td><font e-editable="sec1-text1">two lines</font></td>
+														<e-optional name="product2_title">
+														<td><font e-editable="product2_title">two lines</font></td>
+														</e-optional>
 													</tr>
 													<tr>
-														<td><font e-editable="sec1-text1">product name</font></td>
+														<e-optional name="product2_description">
+														<td><font e-editable="product2_description">product name</font></td>
+														</e-optional>
 													</tr>
 													<tr>
-														<td><font e-editable="sec1-text1">200</font></td>
+														<e-optional name="product2_prize_before">
+														<td><font e-editable="product2_prize_before">200</font></td>
+														</e-optional>
 													</tr>
 													<tr>
-														<td><font e-editable="sec1-text1">150zl</font></td>
+														<e-optional name="product2_prize_after">
+														<td><font e-editable="product2_prize_after">150zl</font></td>
+														</e-optional>
 													</tr>
 												</table>
 											</td>
@@ -261,19 +269,28 @@ table td, table th { border-collapse:collapse; font-size:1px; line-height:1px; }
 											<td align="center">
 												<table cellpadding="0" cellspacing="0" border="0" class="fw sm1">
 													<tr>
-														<td align="center"><img e-editable="sec1-img1"  src="i/product2.jpg" border="1px solid black" style="display:block;" class="image"></td>
+														<e-optional name="product2_image2">
+														<td align="center"><img e-editable="product2_image2"  src="i/product2.jpg" border="1px solid black" style="display:block;" class="image"></td>
+														</e-optional>
 													</tr>
 													<tr>
-														<td><font e-editable="sec1-text1">two lines</font></td>
+														<e-optional name="product2_title2">
+														<td><font e-editable="product2_title2">two lines</font></td>
+														</e-optional>
 													</tr>
 													<tr>
-														<td><font e-editable="sec1-text1">product name</font></td>
+														<e-optional name="product2_description2">
+														<td><font e-editable="product2_description2">product name</font></td>
+														</e-optional>
 													</tr>
 													<tr>
-														<td><font e-editable="sec1-text1">200</font></td>
+														<e-optional name="product2_prize_before2">
+														<td><font e-editable="product2_prize_before2">200</font></td>
+														</e-optional>
 													</tr>
 													<tr>
-														<td><font e-editable="sec1-text1">150zl</font></td>
+														<e-optional name="product2_prize_after2">
+														<td><font e-editable="product2_prize_after2">150zl</font></td>
 													</tr>
 												</table>
 											</td>
@@ -301,6 +318,7 @@ table td, table th { border-collapse:collapse; font-size:1px; line-height:1px; }
 											<td align="center">
 												<table cellpadding="0" cellspacing="0" border="0" class="fw sm1">
 													<tr>
+														<!-- -->
 														<td align="center"><img e-editable="sec1-img1"  src="i/product2.jpg" border="1px solid black" style="display:block;" class="image"></td>
 													</tr>
 													<tr>
@@ -319,7 +337,6 @@ table td, table th { border-collapse:collapse; font-size:1px; line-height:1px; }
 											</td>
 										</tr>
 									</table>
-								</e-optional>
 							</td>
 						</tr>					<!-- 7. 4-col baner hear end -->
 						<tr>
@@ -333,7 +350,10 @@ table td, table th { border-collapse:collapse; font-size:1px; line-height:1px; }
 										<td height="10" class="s1"><img src="{variables.trans}" width="1" height="30" style="display:block;"></td>
 									</tr>
 									<tr>
-										<td align="center"><button type="button" name="button">facebook</button>	</td>
+										<td align="center"><a href="#"><img src="i/fbutton.png" alt="facebook"><img src="i/F_icon.jpg" alt="facebook"></a></td>
+									</tr>
+									<tr>
+										<td align="center"><font class="button_face_text">podziel się ze znajomymi</font></td>
 									</tr>
 									<tr class="is_image_mobile_hideable">
 										<td height="10" class="s1"><img src="{variables.trans}" width="1" height="30" style="display:block;"></td>
@@ -397,18 +417,21 @@ table td, table th { border-collapse:collapse; font-size:1px; line-height:1px; }
 								<table cellspacing="0" cellpadding="0" border="0" width="100%"  bgcolor="#f6f6f6" class="fw">
 								<e-optional name="sec1-text1">
 								<tr>
-									<td align="center" class="lh"><font e-editable="sec1-text1">Twoja opinia</font><font e-editable="sec1-text1">jest dla nas ważna</font></td>
+									<td align="center" class="lh"><font e-editable="sec1-text1" class="f-size24" style="color:red;">Twoja opinia </font><font e-editable="sec1-text1" class="f-size24">jest dla nas ważna</font></td>
 									<td><img src="{variables.trans}" width="1" height="40" style="display:block;"></td>
 								</tr>
 								<tr>
-									<td align="center" class="lh"><font e-editable="sec1-text1">Czy chciałbyś podzielic się swoją opinią dla newsletterow ?</font></td>
+									<td align="center" class="lh"><font e-editable="sec1-text1" class="f-size17">Czy chciałbyś podzielic się swoją opinią dla newsletterow ?</font></td>
 									<td><img src="{variables.trans}" width="1" height="20" style="display:block;"></td>
 								</tr>
 								<tr>
 									<td height="15" class="s3"><img src="{variables.trans}" width="1" height="15" style="display:block;"></td>
 								</tr>
 								<tr>
-									<td align="center"><button type="button" name="button" height="40px" width="120" style="background-color:#6b6c6e;color:white; height:40px;width:120px;">dodaj opinie</button></td>
+									<td align="center"><button type="button" name="button" style="background-color:#6b6c6e;color:white; height:40px;width:150px; border-radius:10px;">dodaj opinie</button></td>
+								</tr>
+								<tr>
+									<td><img src="{variables.trans}" width="1" height="30" style="display:block;"></td>
 								</tr>
 								</e-optional>
 							 </table>
@@ -424,7 +447,7 @@ table td, table th { border-collapse:collapse; font-size:1px; line-height:1px; }
 										<td>
 											<table ellspacing="0" cellpadding="0" border="0" width="100%"  class="fw">
 												<tr>
-													<td><font class="f-size26 fw-bld bbb">Militaria.pl</font></td>
+													<td class="bbb"><font class="f-size34 fw-bld">Militaria.pl</font></td>
 												</tr>
 												<tr>
 													<td><font>ul. Oławska 16</font></td>
@@ -436,11 +459,9 @@ table td, table th { border-collapse:collapse; font-size:1px; line-height:1px; }
 													<td class="bbb"><font>tel: 71 347 47 00</font></td>
 												</tr>
 												<tr>
-												<td>1</td>
-												<td>1</td>
-												<td>1</td>
+													<td><font class="logo f-size26">12</font><font class="logo f-size26">12</font><font class="logo f-size26">12</font><font class="logo f-size26">12</font><font class="logo f-size26">12</font></td>
 												</tr>
-										</table>
+											</table>
 										</td>
 										<td>
 											<table ellspacing="0" cellpadding="0" border="0" width="100%"  class="fw">
@@ -474,7 +495,10 @@ table td, table th { border-collapse:collapse; font-size:1px; line-height:1px; }
 							</td>
 						</tr><!-- end of prefooter-->
 						<tr>
-							<td align="center"><font>Kontakt </font><font>Polityka prywatności </font><font> Regulamin</font></td>
+							<td align="center"><font class="bbb">Kontakt</font><font> |</font><font class="bbb"> Polityka prywatności</font> <font> |</font><font class="bbb"> Regulamin</font></td>
+						</tr>
+						<tr>
+							<td><img src="{variables.trans}" width="1" height="55" style="display:block;"></td>
 						</tr>
 					</table><!-- 661 width-->
 				</td>
