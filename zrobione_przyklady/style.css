@@ -1,7 +1,32 @@
 /* add new class with border style*/
+.table_border{
+	border: 1px solid gray;
+}
 .logo{
 	background-color: black;
 	border-radius: 50%;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	color: white;
+}
+.product_image{
+	position: relative;
+	top: 40px;
+	left: -40px;
+	z-index: 20;
+}
+.gray_rectangle{
+	width: 100%;
+	position: relative;
+	top: -60px;
+}
+.option_sell{
+	background-color:#acacac;
+
+}
+.option_sell:hover{
+	background-color: red;
 }
 .map{
 	display: block;
